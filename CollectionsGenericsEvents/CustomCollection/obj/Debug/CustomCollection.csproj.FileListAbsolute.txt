@@ -1,0 +1,5 @@
+E:\KPI\NET\labs\dotnet-collections-generics-events\CollectionsGenericsEvents\CustomCollection\bin\Debug\CustomCollection.dll
+E:\KPI\NET\labs\dotnet-collections-generics-events\CollectionsGenericsEvents\CustomCollection\bin\Debug\CustomCollection.pdb
+E:\KPI\NET\labs\dotnet-collections-generics-events\CollectionsGenericsEvents\CustomCollection\obj\Debug\CustomCollection.csproj.CoreCompileInputs.cache
+E:\KPI\NET\labs\dotnet-collections-generics-events\CollectionsGenericsEvents\CustomCollection\obj\Debug\CustomCollection.dll
+E:\KPI\NET\labs\dotnet-collections-generics-events\CollectionsGenericsEvents\CustomCollection\obj\Debug\CustomCollection.pdb
