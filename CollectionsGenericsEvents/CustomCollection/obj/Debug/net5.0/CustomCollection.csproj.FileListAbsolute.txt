@@ -9,3 +9,4 @@ E:\KPI\NET\labs\dotnet-collections-generics-events\CollectionsGenericsEvents\Cus
 E:\KPI\NET\labs\dotnet-collections-generics-events\CollectionsGenericsEvents\CustomCollection\obj\Debug\net5.0\CustomCollection.dll
 E:\KPI\NET\labs\dotnet-collections-generics-events\CollectionsGenericsEvents\CustomCollection\obj\Debug\net5.0\ref\CustomCollection.dll
 E:\KPI\NET\labs\dotnet-collections-generics-events\CollectionsGenericsEvents\CustomCollection\obj\Debug\net5.0\CustomCollection.pdb
+E:\KPI\NET\labs\dotnet-collections-generics-events\CollectionsGenericsEvents\CustomCollection\obj\Debug\net5.0\CustomCollection.csproj.AssemblyReference.cache
