@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\KPI\\NET\\labs\\dotnet-collections-generics-events\\CollectionsGenericsEvents\\ConsoleApp\\ConsoleApp.csproj": {}
+    "E:\\KPI\\NET\\labs\\dotnet-collections-generics-events\\CollectionsGenericsEvents\\CustomCollection.Tests\\CustomCollection.Tests.csproj": {}
   },
   "projects": {
-    "E:\\KPI\\NET\\labs\\dotnet-collections-generics-events\\CollectionsGenericsEvents\\ConsoleApp\\ConsoleApp.csproj": {
+    "E:\\KPI\\NET\\labs\\dotnet-collections-generics-events\\CollectionsGenericsEvents\\CustomCollection.Tests\\CustomCollection.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\KPI\\NET\\labs\\dotnet-collections-generics-events\\CollectionsGenericsEvents\\ConsoleApp\\ConsoleApp.csproj",
-        "projectName": "ConsoleApp",
-        "projectPath": "E:\\KPI\\NET\\labs\\dotnet-collections-generics-events\\CollectionsGenericsEvents\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "E:\\KPI\\NET\\labs\\dotnet-collections-generics-events\\CollectionsGenericsEvents\\CustomCollection.Tests\\CustomCollection.Tests.csproj",
+        "projectName": "CustomCollection.Tests",
+        "projectPath": "E:\\KPI\\NET\\labs\\dotnet-collections-generics-events\\CollectionsGenericsEvents\\CustomCollection.Tests\\CustomCollection.Tests.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\KPI\\NET\\labs\\dotnet-collections-generics-events\\CollectionsGenericsEvents\\ConsoleApp\\obj\\",
+        "outputPath": "E:\\KPI\\NET\\labs\\dotnet-collections-generics-events\\CollectionsGenericsEvents\\CustomCollection.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -47,6 +47,24 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -51,9 +51,9 @@ namespace CustomCollection
             stack = new T[capacity];
         }
 
-        public MyStack() : this(10) 
+        public MyStack() : this(10)
         {
-            
+
         }
 
         //yield operator implements IEnumerator<T> interface in the iterator
@@ -66,9 +66,9 @@ namespace CustomCollection
         }
 
         //pushes an element on the top of the stack
-        public void Push(T item) 
+        public void Push(T item)
         {
-            if (topIndex >= stack.Length - 1) 
+            if (topIndex >= stack.Length - 1)
             {
                 throw new IndexOutOfRangeException("Could not push into full stack");
             }
@@ -83,16 +83,20 @@ namespace CustomCollection
         //removes and returns the top element of the stack
         public T Pop()
         {
-            if (topIndex == -1) 
+            if (topIndex == -1)
             {
                 throw new EmptyStackException("Could not pop from empty stack");
-            } 
+            }
+
+            var item = stack[topIndex];
+
+            stack[topIndex] = default(T);
 
             topIndex--;
 
-            StackEvent?.Invoke(this, new StackEventArgs($"Pop. Now {(topIndex + 1).ToString()} item(s) in stack"));
+            StackEvent?.Invoke(this, new StackEventArgs($"Pop.  Now {(topIndex + 1).ToString()} item(s) in stack"));
 
-            return stack[topIndex];
+            return item;
         }
 
         //returns the top element of the stack without removing it

@@ -11,12 +11,22 @@ namespace ConsoleApp
 
             stack.StackEvent += ConsoleMessage;
 
-            stack.Push(64);
-            stack.Push(32);
-            stack.Push(128);
+            foreach (var item in stack)
+            {
+                Console.WriteLine(item.ToString());
+            }
+
+            stack.Push(1);
+            stack.Push(2);
+            stack.Push(3);
             stack.Peek();
             stack.Pop();
             stack.Push(stack.Pop());
+
+            foreach (var item in stack)
+            {
+                Console.WriteLine(item.ToString());
+            }
         }
 
         private static void ConsoleMessage(object source, StackEventArgs args)
